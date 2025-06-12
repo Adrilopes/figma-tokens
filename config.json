@@ -1,5 +1,5 @@
 {
-  "source": ["input/figma-tokens.json"],
+  "source": ["input/**/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
@@ -16,7 +16,7 @@
       "buildPath": "build/js/",
       "files": [
         {
-          "destination": "tokens.css",
+          "destination": "tokens.js",
           "format": "javascript/module-flat"
         }
             ]
