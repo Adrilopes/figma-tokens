@@ -9,9 +9,9 @@
           "destination": "variables.css",
           "format": "css/variables"
         }
-            ]
-          },
-          "js": {
+      ]
+    },
+    "js": {
       "transformGroup": "js",
       "buildPath": "build/js/",
       "files": [
@@ -19,7 +19,7 @@
           "destination": "tokens.js",
           "format": "javascript/module-flat"
         }
-            ]
-          }
-        }
-      }
+      ]
+    }
+  }
+}
