@@ -1,0 +1,25 @@
+{
+  "source": ["input/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables"
+        }
+            ]
+          },
+          "js": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "javascript/module-flat"
+        }
+            ]
+          }
+        }
+      }
