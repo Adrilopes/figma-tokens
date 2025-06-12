@@ -11,5 +11,4 @@ module.exports = {
   ColorPurplegray: "#3a3545",
   VariableCollectionWhite: "#ffffff",
   VariableCollectionStyles: "#27272a",
-  Test: "#ff0000",
 };
