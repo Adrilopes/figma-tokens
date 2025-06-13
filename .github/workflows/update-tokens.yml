@@ -28,12 +28,12 @@ jobs:
         run: mkdir -p input
 
       - name: Create input JSON
+        run: |
+          filename="${{ github.event.client_payload.filename || 'tokens.json' }}"
+          echo "Creating file: input/$filename"
+          echo '${{ github.event.client_payload.tokens }}' > "input/$filename"
+          echo "json-file=input/$filename" >> $GITHUB_OUTPUT
         id: create-json
-        uses: jsdaniell/create-json@1.1.2
-        with:
-          name: ${{ github.event.client_payload.filename || 'tokens.json' }}
-          json: ${{ github.event.client_payload.tokens }}
-          dir: 'input'
 
       - name: List and verify files
         run: |
