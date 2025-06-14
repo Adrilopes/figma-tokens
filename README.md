@@ -2,7 +2,7 @@
 
 Este projeto utiliza uma GitHub Action chamada **Generate design tokens**, que automatiza a atualização de design tokens gerados no Figma e os transforma em arquivos `.scss`, `.js` ou `.css`, prontos para serem usados diretamente no código do seu projeto.
 
-A funcionalidade **Design Tokens para Devs** do Figma permite exportar propriedades como cores, tipografia e espaçamentos de forma padronizada. Com o auxílio da biblioteca **[Style Dictionary](https://amzn.github.io/style-dictionary/)**, esses tokens são convertidos e organizados em múltiplos formatos compatíveis com diversos ambientes de desenvolvimento.
+A funcionalidade **Design Tokens para Devs** do Figma permite exportar propriedades como cores, tipografia e espaçamentos de forma padronizada. Com o auxílio da biblioteca **[Style Dictionary](https://styledictionary.com/)**, esses tokens são convertidos e organizados em múltiplos formatos compatíveis com diversos ambientes de desenvolvimento.
 
 Essa integração facilita a consistência entre design e código, evita erros manuais e acelera a entrega de interfaces alinhadas com o design system.
 
